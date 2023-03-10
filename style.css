@@ -1,0 +1,58 @@
+
+/* /////////////////////////////////////////Default Css/////////////////////////////////////////// */
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.ima-div {
+    text-align: center;
+}
+
+.logo-images {
+    width: 100%;
+}
+
+.logo-div {
+    margin-top: 10%;
+}
+
+.paywith {
+    font-weight: 400;
+    text-align: center;
+}
+
+.email-div {
+    margin-top: 10%;
+}
+
+.table-div {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.procced-btn-div {
+    text-align: center;
+    margin-top: 5%;
+}
